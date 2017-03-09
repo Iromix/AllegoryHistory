@@ -3,7 +3,7 @@ package com.codewise.internship;
 
 class ID {
 
-    private int id;
+    private final int id;
 
     public ID(int id) {
         this.id = id;
@@ -13,7 +13,4 @@ class ID {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 }
