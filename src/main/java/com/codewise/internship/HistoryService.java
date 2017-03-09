@@ -27,7 +27,7 @@ class HistoryService implements Service {
             .orElse(0.0);
     }
 
-    private Map<ID, List<Double>> initMap() {
+    private <K,V> Map<K, V> initMap() {
         return new ConcurrentHashMap<>();
     }
 }
